@@ -1,4 +1,4 @@
-local userMachine='%{$fg_bold[red]%}%n@%{$fg[red]%}%m%{$reset_color%}'
+local userMachine='%{$fg_bold[red]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}'
 local whereami='%{$fg[cyan]%}%c%{$reset_color%}'
 local prompt='%% '
 local rvm=''
